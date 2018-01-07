@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6876b335-8643-44ed-8f7d-d6312ef60e0b" name="Default" comment="" />
+    <list default="true" id="6876b335-8643-44ed-8f7d-d6312ef60e0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/redis/utils/RedisTemplateUtil.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,11 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ShardedJedisPoolUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/utils/ShardedJedisPoolUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="45">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -24,21 +26,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisPoolConfig.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPoolConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisTemplateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/utils/RedisTemplateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -46,47 +68,22 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="510">
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ShardedJedisPool.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/ShardedJedisPool.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="225">
               <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShardedJedis.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/ShardedJedis.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryShardedJedis.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryShardedJedis.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -129,8 +126,8 @@
                 <node x="634.4161111111111" y="270.0">redis.clients.jedis.JedisSentinelPool</node>
                 <node x="401.25277777777785" y="180.0">redis.clients.jedis.BinaryJedis.SetFromList</node>
                 <node x="812.4161111111111" y="180.0">org.apache.commons.pool2.impl.GenericObjectPoolConfig</node>
-                <node x="48.25000000000006" y="270.0">redis.clients.jedis.JedisShardInfo</node>
                 <node x="301.2527777777778" y="180.0">redis.clients.jedis.Jedis</node>
+                <node x="48.25000000000006" y="270.0">redis.clients.jedis.JedisShardInfo</node>
                 <node x="208.25000000000006" y="270.0">redis.clients.jedis.BinaryShardedJedis</node>
                 <node x="485.52250000000004" y="510.0">redis.clients.jedis.ShardedJedisPool.ShardedJedisFactory</node>
                 <node x="491.27250000000004" y="270.0">redis.clients.jedis.JedisPool</node>
@@ -151,33 +148,21 @@
                   <point x="0.0" y="-15.0" />
                   <point x="51.75" y="15.0" />
                 </edge>
+                <edge source="org.apache.commons.pool2.impl.GenericObjectPoolConfig" target="org.apache.commons.pool2.impl.BaseObjectPoolConfig">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
                 <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.JedisCommands">
                   <point x="-30.0" y="-15.0" />
                   <point x="311.2527777777778" y="160.0" />
                   <point x="113.25" y="160.0" />
                   <point x="37.75" y="15.0" />
                 </edge>
-                <edge source="org.apache.commons.pool2.impl.GenericObjectPoolConfig" target="org.apache.commons.pool2.impl.BaseObjectPoolConfig">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
                 <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.JedisCommands">
                   <point x="-43.33333333333337" y="-15.0" />
                   <point x="278.06416666666667" y="330.0" />
                   <point x="37.75000000000006" y="330.0" />
                   <point x="-37.75" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.JedisShardInfo" target="redis.clients.jedis.Jedis">
-                  <point x="0.0" y="-15.0" />
-                  <point x="118.25000000000006" y="240.0" />
-                  <point x="309.2527777777778" y="240.0" />
-                  <point x="-32.0" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.JedisPool" target="redis.clients.jedis.Jedis">
-                  <point x="-26.75" y="-15.0" />
-                  <point x="518.0225" y="240.0" />
-                  <point x="357.2527777777778" y="240.0" />
-                  <point x="16.0" y="15.0" />
                 </edge>
                 <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.BasicCommands">
                   <point x="-10.0" y="-15.0" />
@@ -190,12 +175,6 @@
                   <point x="571.5225" y="150.0" />
                   <point x="613.505" y="150.0" />
                   <point x="-15.399999999999977" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.JedisSentinelPool" target="org.apache.commons.pool2.impl.GenericObjectPoolConfig">
-                  <point x="52.33333333333337" y="-15.0" />
-                  <point x="765.2494444444445" y="250.0" />
-                  <point x="864.1661111111111" y="250.0" />
-                  <point x="-51.75" y="15.0" />
                 </edge>
                 <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.BinaryShardedJedis">
                   <point x="0.0" y="-15.0" />
@@ -210,24 +189,6 @@
                   <point x="801.9161111111111" y="150.0" />
                   <point x="659.7049999999999" y="150.0" />
                   <point x="30.799999999999955" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.JedisSentinelPool" target="redis.clients.jedis.Jedis">
-                  <point x="-52.33333333333337" y="-15.0" />
-                  <point x="660.5827777777778" y="230.0" />
-                  <point x="373.2527777777778" y="230.0" />
-                  <point x="32.0" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.Jedis" target="redis.clients.util.Pool">
-                  <point x="30.0" y="-15.0" />
-                  <point x="371.2527777777778" y="140.0" />
-                  <point x="598.105" y="140.0" />
-                  <point x="-30.799999999999955" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.ShardedJedisPool" target="redis.clients.jedis.ShardedJedis">
-                  <point x="-39.25" y="-15.0" />
-                  <point x="534.2725" y="405.0" />
-                  <point x="321.39750000000004" y="405.0" />
-                  <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="redis.clients.jedis.BinaryJedis" target="redis.clients.jedis.BasicCommands">
                   <point x="0.0" y="-15.0" />
@@ -247,12 +208,6 @@
                   <point x="848.1661111111111" y="55.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
-                <edge source="redis.clients.jedis.BinaryShardedJedis" target="redis.clients.jedis.Jedis">
-                  <point x="0.0" y="-15.0" />
-                  <point x="292.25000000000006" y="250.0" />
-                  <point x="325.2527777777778" y="250.0" />
-                  <point x="-16.0" y="15.0" />
-                </edge>
                 <edge source="redis.clients.jedis.JedisSentinelPool.MasterListener" target="redis.clients.jedis.JedisSentinelPool">
                   <point x="35.5" y="-15.0" />
                   <point x="624.7725" y="330.0" />
@@ -265,22 +220,6 @@
                   <point x="983.6661111111111" y="55.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
-                <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.util.Pool">
-                  <point x="43.333333333333314" y="-15.0" />
-                  <point x="364.73083333333335" y="330.0" />
-                  <point x="608.7725" y="330.0" />
-                  <point x="608.7725" y="160.0" />
-                  <point x="628.905" y="160.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="redis.clients.jedis.JedisSentinelPool.MasterListener" target="redis.clients.jedis.Jedis">
-                  <point x="-35.5" y="-15.0" />
-                  <point x="553.7725" y="320.0" />
-                  <point x="386.75000000000006" y="320.0" />
-                  <point x="386.75000000000006" y="250.0" />
-                  <point x="341.2527777777778" y="250.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
                 <edge source="redis.clients.jedis.JedisSentinelPool" target="redis.clients.util.Pool">
                   <point x="0.0" y="-15.0" />
                   <point x="712.9161111111111" y="160.0" />
@@ -288,8 +227,10 @@
                   <point x="15.399999999999977" y="15.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.9" x="173.1111111111111" y="227.77777777777777" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.9" x="173.0" y="228.0" />
+              <SelectedNodes>
+                <node>org.apache.commons.pool2.impl.BaseObjectPoolConfig</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Inner Classes</Category>
               </Categories>
@@ -359,9 +300,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -704,13 +646,63 @@
               <item name="redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-websocket-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-websocket-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-websocket-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-annotations-api-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-annotations-api-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-annotations-api-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,7 +714,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="ShardedJedisPool&#9;PSI&#9;JAVA://redis.clients.jedis.ShardedJedisPool" />
+    <property name="SearchEverywhereHistoryKey" value="JedisPoolConfig&#9;PSI&#9;JAVA://redis.clients.jedis.JedisPoolConfig&#10;ShardedJedisPool&#9;PSI&#9;JAVA://redis.clients.jedis.ShardedJedisPool" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -837,45 +829,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513426547174</updated>
-      <workItem from="1513426553076" duration="5880000" />
+      <workItem from="1513426553076" duration="7132000" />
+      <workItem from="1514813661010" duration="2202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5880000" />
+    <option name="totallyTimeSpent" value="9334000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37722132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3828756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Archetypes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -920,11 +914,208 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/utils/ShardedJedisPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/ShardedJedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/ShardedJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryShardedJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Sharded.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/ShardInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.commons.pool2.impl.BaseObjectPoolConfig">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.commons.pool2.impl.BaseObjectPoolConfig</OriginalElement>
+          <nodes>
+            <node x="0.0" y="80.0">redis.clients.jedis.JedisCommands</node>
+            <node x="792.1661111111111" y="0.0">java.lang.Cloneable</node>
+            <node x="374.7527777777778" y="80.0">redis.clients.jedis.BinaryJedis</node>
+            <node x="256.39750000000004" y="350.0">redis.clients.jedis.ShardedJedis</node>
+            <node x="319.0027777777778" y="0.0">redis.clients.jedis.BasicCommands</node>
+            <node x="590.405" y="80.0">redis.clients.util.Pool</node>
+            <node x="821.9161111111111" y="80.0">org.apache.commons.pool2.impl.BaseObjectPoolConfig</node>
+            <node x="634.4161111111111" y="270.0">redis.clients.jedis.JedisSentinelPool</node>
+            <node x="401.25277777777785" y="180.0">redis.clients.jedis.BinaryJedis.SetFromList</node>
+            <node x="812.4161111111111" y="180.0">org.apache.commons.pool2.impl.GenericObjectPoolConfig</node>
+            <node x="301.2527777777778" y="180.0">redis.clients.jedis.Jedis</node>
+            <node x="48.25000000000006" y="270.0">redis.clients.jedis.JedisShardInfo</node>
+            <node x="208.25000000000006" y="270.0">redis.clients.jedis.BinaryShardedJedis</node>
+            <node x="485.52250000000004" y="510.0">redis.clients.jedis.ShardedJedisPool.ShardedJedisFactory</node>
+            <node x="491.27250000000004" y="270.0">redis.clients.jedis.JedisPool</node>
+            <node x="893.1661111111111" y="270.0">redis.clients.jedis.JedisPoolConfig</node>
+            <node x="924.1661111111111" y="0.0">org.apache.commons.pool2.BaseObject</node>
+            <node x="518.2725" y="350.0">redis.clients.jedis.JedisSentinelPool.MasterListener</node>
+            <node x="495.02250000000004" y="430.0">redis.clients.jedis.ShardedJedisPool</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.BinaryJedis">
+              <point x="10.0" y="-15.0" />
+              <point x="351.2527777777778" y="130.0" />
+              <point x="404.2527777777778" y="130.0" />
+              <point x="-29.5" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.JedisPoolConfig" target="org.apache.commons.pool2.impl.GenericObjectPoolConfig">
+              <point x="0.0" y="-15.0" />
+              <point x="51.75" y="15.0" />
+            </edge>
+            <edge source="org.apache.commons.pool2.impl.GenericObjectPoolConfig" target="org.apache.commons.pool2.impl.BaseObjectPoolConfig">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.JedisCommands">
+              <point x="-30.0" y="-15.0" />
+              <point x="311.2527777777778" y="160.0" />
+              <point x="113.25" y="160.0" />
+              <point x="37.75" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.JedisCommands">
+              <point x="-43.33333333333337" y="-15.0" />
+              <point x="278.06416666666667" y="330.0" />
+              <point x="37.75000000000006" y="330.0" />
+              <point x="-37.75" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.BasicCommands">
+              <point x="-10.0" y="-15.0" />
+              <point x="331.2527777777778" y="55.0" />
+              <point x="357.2527777777778" y="55.0" />
+              <point x="-38.25" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.JedisPool" target="redis.clients.util.Pool">
+              <point x="26.75" y="-15.0" />
+              <point x="571.5225" y="150.0" />
+              <point x="613.505" y="150.0" />
+              <point x="-15.399999999999977" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.BinaryShardedJedis">
+              <point x="0.0" y="-15.0" />
+              <point x="321.39750000000004" y="330.0" />
+              <point x="292.25000000000006" y="330.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.ShardedJedisPool" target="redis.clients.util.Pool">
+              <point x="39.25" y="-15.0" />
+              <point x="612.7725" y="405.0" />
+              <point x="801.9161111111111" y="405.0" />
+              <point x="801.9161111111111" y="150.0" />
+              <point x="659.7049999999999" y="150.0" />
+              <point x="30.799999999999955" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.BinaryJedis" target="redis.clients.jedis.BasicCommands">
+              <point x="0.0" y="-15.0" />
+              <point x="38.25" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.ShardedJedisPool.ShardedJedisFactory" target="redis.clients.jedis.ShardedJedisPool">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.BinaryJedis.SetFromList" target="redis.clients.jedis.BinaryJedis">
+              <point x="-5.6843418860808015E-14" y="-15.0" />
+              <point x="29.5" y="15.0" />
+            </edge>
+            <edge source="org.apache.commons.pool2.impl.BaseObjectPoolConfig" target="java.lang.Cloneable">
+              <point x="-47.0" y="-15.0" />
+              <point x="868.9161111111111" y="55.0" />
+              <point x="848.1661111111111" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.JedisSentinelPool.MasterListener" target="redis.clients.jedis.JedisSentinelPool">
+              <point x="35.5" y="-15.0" />
+              <point x="624.7725" y="330.0" />
+              <point x="712.9161111111111" y="330.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.apache.commons.pool2.impl.BaseObjectPoolConfig" target="org.apache.commons.pool2.BaseObject">
+              <point x="47.0" y="-15.0" />
+              <point x="962.9161111111111" y="55.0" />
+              <point x="983.6661111111111" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="redis.clients.jedis.JedisSentinelPool" target="redis.clients.util.Pool">
+              <point x="0.0" y="-15.0" />
+              <point x="712.9161111111111" y="160.0" />
+              <point x="644.305" y="160.0" />
+              <point x="15.399999999999977" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="173.0" y="228.0" />
+          <SelectedNodes>
+            <node>org.apache.commons.pool2.impl.BaseObjectPoolConfig</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/MurmurHash.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,8 +1233,8 @@
             <node x="634.4161111111111" y="270.0">redis.clients.jedis.JedisSentinelPool</node>
             <node x="401.25277777777785" y="180.0">redis.clients.jedis.BinaryJedis.SetFromList</node>
             <node x="812.4161111111111" y="180.0">org.apache.commons.pool2.impl.GenericObjectPoolConfig</node>
-            <node x="48.25000000000006" y="270.0">redis.clients.jedis.JedisShardInfo</node>
             <node x="301.2527777777778" y="180.0">redis.clients.jedis.Jedis</node>
+            <node x="48.25000000000006" y="270.0">redis.clients.jedis.JedisShardInfo</node>
             <node x="208.25000000000006" y="270.0">redis.clients.jedis.BinaryShardedJedis</node>
             <node x="485.52250000000004" y="510.0">redis.clients.jedis.ShardedJedisPool.ShardedJedisFactory</node>
             <node x="491.27250000000004" y="270.0">redis.clients.jedis.JedisPool</node>
@@ -1070,33 +1255,21 @@
               <point x="0.0" y="-15.0" />
               <point x="51.75" y="15.0" />
             </edge>
+            <edge source="org.apache.commons.pool2.impl.GenericObjectPoolConfig" target="org.apache.commons.pool2.impl.BaseObjectPoolConfig">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
             <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.JedisCommands">
               <point x="-30.0" y="-15.0" />
               <point x="311.2527777777778" y="160.0" />
               <point x="113.25" y="160.0" />
               <point x="37.75" y="15.0" />
             </edge>
-            <edge source="org.apache.commons.pool2.impl.GenericObjectPoolConfig" target="org.apache.commons.pool2.impl.BaseObjectPoolConfig">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
             <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.JedisCommands">
               <point x="-43.33333333333337" y="-15.0" />
               <point x="278.06416666666667" y="330.0" />
               <point x="37.75000000000006" y="330.0" />
               <point x="-37.75" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.JedisShardInfo" target="redis.clients.jedis.Jedis">
-              <point x="0.0" y="-15.0" />
-              <point x="118.25000000000006" y="240.0" />
-              <point x="309.2527777777778" y="240.0" />
-              <point x="-32.0" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.JedisPool" target="redis.clients.jedis.Jedis">
-              <point x="-26.75" y="-15.0" />
-              <point x="518.0225" y="240.0" />
-              <point x="357.2527777777778" y="240.0" />
-              <point x="16.0" y="15.0" />
             </edge>
             <edge source="redis.clients.jedis.Jedis" target="redis.clients.jedis.BasicCommands">
               <point x="-10.0" y="-15.0" />
@@ -1109,12 +1282,6 @@
               <point x="571.5225" y="150.0" />
               <point x="613.505" y="150.0" />
               <point x="-15.399999999999977" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.JedisSentinelPool" target="org.apache.commons.pool2.impl.GenericObjectPoolConfig">
-              <point x="52.33333333333337" y="-15.0" />
-              <point x="765.2494444444445" y="250.0" />
-              <point x="864.1661111111111" y="250.0" />
-              <point x="-51.75" y="15.0" />
             </edge>
             <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.jedis.BinaryShardedJedis">
               <point x="0.0" y="-15.0" />
@@ -1129,24 +1296,6 @@
               <point x="801.9161111111111" y="150.0" />
               <point x="659.7049999999999" y="150.0" />
               <point x="30.799999999999955" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.JedisSentinelPool" target="redis.clients.jedis.Jedis">
-              <point x="-52.33333333333337" y="-15.0" />
-              <point x="660.5827777777778" y="230.0" />
-              <point x="373.2527777777778" y="230.0" />
-              <point x="32.0" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.Jedis" target="redis.clients.util.Pool">
-              <point x="30.0" y="-15.0" />
-              <point x="371.2527777777778" y="140.0" />
-              <point x="598.105" y="140.0" />
-              <point x="-30.799999999999955" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.ShardedJedisPool" target="redis.clients.jedis.ShardedJedis">
-              <point x="-39.25" y="-15.0" />
-              <point x="534.2725" y="405.0" />
-              <point x="321.39750000000004" y="405.0" />
-              <point x="0.0" y="15.0" />
             </edge>
             <edge source="redis.clients.jedis.BinaryJedis" target="redis.clients.jedis.BasicCommands">
               <point x="0.0" y="-15.0" />
@@ -1166,12 +1315,6 @@
               <point x="848.1661111111111" y="55.0" />
               <point x="0.0" y="15.0" />
             </edge>
-            <edge source="redis.clients.jedis.BinaryShardedJedis" target="redis.clients.jedis.Jedis">
-              <point x="0.0" y="-15.0" />
-              <point x="292.25000000000006" y="250.0" />
-              <point x="325.2527777777778" y="250.0" />
-              <point x="-16.0" y="15.0" />
-            </edge>
             <edge source="redis.clients.jedis.JedisSentinelPool.MasterListener" target="redis.clients.jedis.JedisSentinelPool">
               <point x="35.5" y="-15.0" />
               <point x="624.7725" y="330.0" />
@@ -1184,22 +1327,6 @@
               <point x="983.6661111111111" y="55.0" />
               <point x="0.0" y="15.0" />
             </edge>
-            <edge source="redis.clients.jedis.ShardedJedis" target="redis.clients.util.Pool">
-              <point x="43.333333333333314" y="-15.0" />
-              <point x="364.73083333333335" y="330.0" />
-              <point x="608.7725" y="330.0" />
-              <point x="608.7725" y="160.0" />
-              <point x="628.905" y="160.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="redis.clients.jedis.JedisSentinelPool.MasterListener" target="redis.clients.jedis.Jedis">
-              <point x="-35.5" y="-15.0" />
-              <point x="553.7725" y="320.0" />
-              <point x="386.75000000000006" y="320.0" />
-              <point x="386.75000000000006" y="250.0" />
-              <point x="341.2527777777778" y="250.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
             <edge source="redis.clients.jedis.JedisSentinelPool" target="redis.clients.util.Pool">
               <point x="0.0" y="-15.0" />
               <point x="712.9161111111111" y="160.0" />
@@ -1207,8 +1334,10 @@
               <point x="15.399999999999977" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="173.1111111111111" y="227.77777777777777" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.9" x="173.0" y="228.0" />
+          <SelectedNodes>
+            <node>org.apache.commons.pool2.impl.BaseObjectPoolConfig</node>
+          </SelectedNodes>
           <Categories>
             <Category>Inner Classes</Category>
           </Categories>
@@ -1219,20 +1348,15 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/ShardedJedisPool.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="225">
           <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/utils/ShardedJedisPoolUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="45">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1240,29 +1364,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/controller/UserInfoController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/utils/RedisTemplateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/redis/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
