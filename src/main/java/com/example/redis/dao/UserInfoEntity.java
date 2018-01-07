@@ -1,11 +1,13 @@
 package com.example.redis.dao;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Objects;
 
 @Table(name = "user_info", schema = "test")
 @Entity
-public class UserInfoEntity {
+public class UserInfoEntity implements Serializable {
+    private static final long serialVersionUID = -8216716094707569171L;
     private Integer id;
     private String userName;
     private String email;
